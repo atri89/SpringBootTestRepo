@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Getting Started: Serving Web Content</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h3>User Registration page</h3>
+	<form action="/registeruser" method="post">
+		<table>
+			<tr>
+				<td>UserName:</td>
+				<td><input type="text" name="userName" /></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="text" name="password" /></td>
+			</tr>
+			<tr>
+				<td>Password Confirm:</td>
+				<td><input type="text" name="passwordConfirm" /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
